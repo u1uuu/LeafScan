@@ -1,0 +1,18 @@
+# LeafScan 直接依赖（YOLOv5 源码来自同级的 PlantDocDetection 目录，不在本仓库，见 README §2.0）
+# Python 版本必须与上游 utils/engine 里的 PyArmor 运行时一致（见 README 第 2 节）
+torch>=1.8.0
+torchvision>=0.9.0
+opencv-python>=4.5.0
+PyQt5==5.15.6
+numpy>=1.20.0
+PyYAML>=5.4.0
+
+# 下面四个不是 LeafScan 直接 import 的，而是上游 utils/general.py 在顶层 import 的
+# （scipy.signal / matplotlib / PIL.Image / tqdm）。漏装的话 import 链会在
+# detector.py 第一步就崩，报错还落在第三方库里，看起来像"项目本身坏了"。
+# 版本下限与 YOLOv5 v5.0 官方 requirements.txt 保持一致。
+scipy>=1.4.1
+matplotlib>=3.2.2
+Pillow>=7.1.2
+tqdm>=4.41.0
+

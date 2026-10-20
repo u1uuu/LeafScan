@@ -1,0 +1,15 @@
+{
+  // venv38 是本机虚拟环境目录，按 .gitignore 不入库。clone 后若没有这个目录，
+  // 这一行会提示“找不到解释器”，改成你自己的解释器路径或直接删掉此行即可。
+  "python.defaultInterpreterPath": "${workspaceFolder}\\venv38\\Scripts\\python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}\\PlantDocDetection",
+    "${workspaceFolder}\\LeafScan"
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+  },
+  "python.terminal.activateEnvironment": true,
+  "files.encoding": "utf8"
+}

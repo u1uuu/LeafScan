@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  // 各配置里的 "python" 指向本机 venv38（未入库）。自己的环境路径不同时，
+  // 改成你的解释器路径即可；不填则使用 VS Code 当前选中的解释器。
+  "configurations": [
+    {
+      "name": "LeafScan (GUI)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\LeafScan\\run_leafscan.py",
+      "cwd": "${workspaceFolder}\\LeafScan",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}\\venv38\\Scripts\\python.exe",
+      "justMyCode": true
+    },
+    {
+      "name": "LeafScan (CLI, 单文件夹)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\LeafScan\\run_leafscan.py",
+      "args": ["--cli", "${workspaceFolder}\\PlantDocDetection\\PlantDoc\\images\\test"],
+      "cwd": "${workspaceFolder}\\LeafScan",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}\\venv38\\Scripts\\python.exe"
+    },
+    {
+      "name": "smoke_test",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\LeafScan\\tools\\smoke_test.py",
+      "cwd": "${workspaceFolder}\\LeafScan",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}\\venv38\\Scripts\\python.exe"
+    },
+    {
+      "name": "doctor (环境自检)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\LeafScan\\tools\\doctor.py",
+      "cwd": "${workspaceFolder}\\LeafScan",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}\\venv38\\Scripts\\python.exe"
+    }
+  ]
+}

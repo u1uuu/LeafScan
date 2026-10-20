@@ -1,0 +1,21 @@
+# ---- 上游依赖：GPL-3.0 代码 + 第三方权重 + 数据集，不应该进本仓库 ----
+PlantDocDetection/
+
+# ---- 环境与离线包 ----
+venv38/
+离线依赖包/
+tmp/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.log
+
+# ---- 编辑器 / IDE ----
+.idea/
+
+# ---- LeafScan 运行期产物 ----
+LeafScan/_cli_out/
+LeafScan/_cli_probe/
+LeafScan/runs/
+

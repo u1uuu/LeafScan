@@ -1,0 +1,33 @@
+# PlantDoc 数据集 30 个类别：英文类名 -> 中文名
+# 必须和权重文件里的 model.names 完全一致（含大小写、下划线、空格）。
+# 键对不上时界面会退化为显示英文名，不会报错。
+Apple Scab Leaf: 苹果黑星病叶
+Apple leaf: 苹果叶
+Apple rust leaf: 苹果锈叶
+Bell_pepper leaf spot: 甜椒叶斑病
+Bell_pepper leaf: 甜椒叶
+Blueberry leaf: 蓝莓叶
+Cherry leaf: 樱桃叶
+Corn Gray leaf spot: 玉米灰叶斑病
+Corn leaf blight: 玉米叶枯病
+Corn rust leaf: 玉米锈叶
+Peach leaf: 桃叶
+Potato leaf early blight: 马铃薯叶早疫病
+Potato leaf late blight: 马铃薯叶晚疫病
+Potato leaf: 马铃薯叶
+Raspberry leaf: 覆盆子叶
+Soyabean leaf: 大豆叶
+Soybean leaf: 大豆叶
+Squash Powdery mildew leaf: 南瓜白粉病叶
+Strawberry leaf: 草莓叶
+Tomato Early blight leaf: 番茄早疫病叶
+Tomato Septoria leaf spot: 番茄叶斑病
+Tomato leaf bacterial spot: 番茄叶细菌性斑病
+Tomato leaf late blight: 番茄叶晚疫病
+Tomato leaf mosaic virus: 番茄叶花叶病毒
+Tomato leaf yellow virus: 番茄叶黄病毒
+Tomato leaf: 番茄叶
+Tomato mold leaf: 番茄霉叶
+Tomato two spotted spider mites leaf: 番茄二斑叶螨叶
+grape leaf black rot: 葡萄叶黑腐病
+grape leaf: 葡萄叶

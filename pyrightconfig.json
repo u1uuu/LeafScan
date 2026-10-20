@@ -1,0 +1,8 @@
+{
+  "include": ["LeafScan"],
+  "extraPaths": ["PlantDocDetection"],
+  "venvPath": ".",
+  "venv": "venv38",
+  "pythonVersion": "3.8",
+  "typeCheckingMode": "basic"
+}
